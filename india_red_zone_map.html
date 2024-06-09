@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e252884c81581b906c957041040a96eb {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e252884c81581b906c957041040a96eb" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e252884c81581b906c957041040a96eb = L.map(
+                "map_e252884c81581b906c957041040a96eb",
+                {
+                    center: [20.5937, 78.9629],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: true,
+                    lang: "en",
+                }
+            );
+            L.control.scale().addTo(map_e252884c81581b906c957041040a96eb);
+
+            
+
+        
+    
+            var tile_layer_9a75f7908a613d5ec91bf999539a6fc2 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 2, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_e252884c81581b906c957041040a96eb);
+        
+    
+            var marker_d1c6eca8ca9fc8ffd0add9b99f341e1f = L.marker(
+                [15.9129, 79.74],
+                {}
+            ).addTo(map_e252884c81581b906c957041040a96eb);
+        
+    
+            var icon_adc9a0f8c69c7940564c9ad923ffacb5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d1c6eca8ca9fc8ffd0add9b99f341e1f.setIcon(icon_adc9a0f8c69c7940564c9ad923ffacb5);
+        
+    
+        var popup_49cbfc3249169baf8a80c4749de2bec3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7448edcffe1a07297cc3edd0c490ce35 = $(`<div id="html_7448edcffe1a07297cc3edd0c490ce35" style="width: 100.0%; height: 100.0%;">Andhra Pradesh</div>`)[0];
+                popup_49cbfc3249169baf8a80c4749de2bec3.setContent(html_7448edcffe1a07297cc3edd0c490ce35);
+            
+        
+
+        marker_d1c6eca8ca9fc8ffd0add9b99f341e1f.bindPopup(popup_49cbfc3249169baf8a80c4749de2bec3)
+        ;
+
+        
+    
+    
+            var marker_82fd102c15b86b310fe7d47a2e9913ac = L.marker(
+                [10.8505, 76.2711],
+                {}
+            ).addTo(map_e252884c81581b906c957041040a96eb);
+        
+    
+            var icon_12d36a5f560503ad991f9eda8e4c1b3f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_82fd102c15b86b310fe7d47a2e9913ac.setIcon(icon_12d36a5f560503ad991f9eda8e4c1b3f);
+        
+    
+        var popup_cee63a1adb7dcc88decfeeda7b364e3a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c8d5180bfd2249d6403477f61b06156 = $(`<div id="html_2c8d5180bfd2249d6403477f61b06156" style="width: 100.0%; height: 100.0%;">Kerala</div>`)[0];
+                popup_cee63a1adb7dcc88decfeeda7b364e3a.setContent(html_2c8d5180bfd2249d6403477f61b06156);
+            
+        
+
+        marker_82fd102c15b86b310fe7d47a2e9913ac.bindPopup(popup_cee63a1adb7dcc88decfeeda7b364e3a)
+        ;
+
+        
+    
+    
+            var marker_a9a1a8c6a4cff66102dfc058b6e4d600 = L.marker(
+                [22.9868, 87.855],
+                {}
+            ).addTo(map_e252884c81581b906c957041040a96eb);
+        
+    
+            var icon_068b4a6a0b8d24968e7e52cfc7193a07 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a9a1a8c6a4cff66102dfc058b6e4d600.setIcon(icon_068b4a6a0b8d24968e7e52cfc7193a07);
+        
+    
+        var popup_7297e0421a05e9de941c6e5de25f677a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e2274109d8e7f9ff05f31cd3948cf2f3 = $(`<div id="html_e2274109d8e7f9ff05f31cd3948cf2f3" style="width: 100.0%; height: 100.0%;">West Bengal</div>`)[0];
+                popup_7297e0421a05e9de941c6e5de25f677a.setContent(html_e2274109d8e7f9ff05f31cd3948cf2f3);
+            
+        
+
+        marker_a9a1a8c6a4cff66102dfc058b6e4d600.bindPopup(popup_7297e0421a05e9de941c6e5de25f677a)
+        ;
+
+        
+    
+    
+            var marker_1aaaafb1d2561c1506fba1ffe9f5243d = L.marker(
+                [20.9517, 85.0985],
+                {}
+            ).addTo(map_e252884c81581b906c957041040a96eb);
+        
+    
+            var icon_9da6f2ce093344f8adc8ca576c4ba241 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1aaaafb1d2561c1506fba1ffe9f5243d.setIcon(icon_9da6f2ce093344f8adc8ca576c4ba241);
+        
+    
+        var popup_0f076f3642956609c4cd129b08fc06d3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d88b520e65bb643517a9f10e09b01d94 = $(`<div id="html_d88b520e65bb643517a9f10e09b01d94" style="width: 100.0%; height: 100.0%;">Odisha</div>`)[0];
+                popup_0f076f3642956609c4cd129b08fc06d3.setContent(html_d88b520e65bb643517a9f10e09b01d94);
+            
+        
+
+        marker_1aaaafb1d2561c1506fba1ffe9f5243d.bindPopup(popup_0f076f3642956609c4cd129b08fc06d3)
+        ;
+
+        
+    
+</script>
+</html>
